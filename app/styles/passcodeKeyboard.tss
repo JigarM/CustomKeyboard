@@ -1,0 +1,75 @@
+"#keyboard": {
+	top: "50%",
+	height: "50%",
+	backgroundColor: "#F3F4F4"
+},
+"#keyboardContainer": {
+	top: "0%",
+	height: "100%",
+	width: "100%",
+	layout: "horizontal"
+},
+".column": {
+	top: "0%",
+	height: "100%",
+	width: "33.1%",
+	left: "0%",
+	layout: "vertical"
+},
+".key": {
+	top: "0%",
+	height: "25%",
+	width: "100%",
+	backgroundSelectedColor: "#a8a8a8"
+},
+".horDivider": {
+	backgroundColor: "#C6C7C9",
+	height: "1dp",
+	width: "100%",
+	left: "0%",
+	zIndex: "10"
+},
+".horHalfDivider": {
+	backgroundColor: "#C6C7C9",
+	height: "1dp",
+	width: "75%",
+	left: "0%",
+	zIndex: "10"
+},
+".verDivider": {
+	width: "1dp",
+	height: "100%",
+	top: "50%",
+	backgroundColor: "#C6C7C9",
+	zIndex: "10"
+},
+".keyNum": {
+	color: "#454545",
+	font: {
+		fontWeight: "nomal",
+		fontSize: "30",
+		//fontFamily: Alloy.Globals.fontFamilyLight
+	},
+	touchEnabled: false
+},
+".keyNum[platform=android]": {
+	color: "#454545",
+	font: {
+		fontWeight: "nomal",
+		fontSize: Alloy.Globals.fontSize
+	},
+	touchEnabled: false
+},
+".cancel": {
+	font: {
+		fontWeight: "normal",
+		fontSize: "14"
+	}
+},
+".menuItem": {
+	color: "#454545",
+	font: {
+		fontSize: "19"
+	},
+	touchEnabled: false
+}

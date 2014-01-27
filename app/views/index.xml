@@ -1,0 +1,32 @@
+<Alloy>
+	<Window id="container">
+		<Label zIndex="10" textAlign="right" top="2%" color="#ffffff" right="5%" id="clear" onClick="clear">
+			Clear
+		</Label>
+		<View id="passcoedArea">
+			<Label class="title">
+				Enter Your Code
+			</Label>
+			<View id="boxContainer">
+				<View class="box" left="3%">
+					<Label id="box1" class="value">
+					</Label>
+				</View>
+				<View class="box" left="5%">
+					<Label id="box2" class="value">
+					</Label>
+				</View>
+				<View class="box" left="5%">
+					<Label id="box3" class="value">
+					</Label>
+				</View>
+				<View class="box" left="5%">
+					<Label id="box4" class="value">
+					</Label>
+				</View>
+			</View>
+		</View>
+		<Require id="passcodeKeyboard" src="passcodeKeyboard">
+		</Require>
+	</Window>
+</Alloy>

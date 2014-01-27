@@ -1,0 +1,51 @@
+<Alloy>
+	<View id="keyboard">
+		<View id="keyboardContainer">
+			<View id="column1" class="column">
+				<View id="key1" class="key" value="1" onTouchstart="ButtonSet" onTouchend="keyPressed" onTouchcancel="ButtonUnSet">
+					<Label class="keyNum">1</Label>
+				</View>
+				<View id="key4" class="key" value="4" onTouchstart="ButtonSet" onTouchend="keyPressed" onTouchcancel="ButtonUnSet">
+					<Label class="keyNum">4</Label>
+				</View>
+				<View id="key7" class="key" value="7" onTouchstart="ButtonSet" onTouchend="keyPressed" onTouchcancel="ButtonUnSet">
+					<Label class="keyNum">7</Label>
+				</View>
+				<View id="blank" class="key" ></View>
+			</View>
+			<View id="column2" class="column">
+				<View id="key2" class="key" value="2" onTouchstart="ButtonSet" onTouchend="keyPressed" onTouchcancel="ButtonUnSet">
+					<Label class="keyNum">2</Label>
+				</View>
+				<View id="key5" class="key" value="5" onTouchstart="ButtonSet" onTouchend="keyPressed" onTouchcancel="ButtonUnSet">
+					<Label class="keyNum">5</Label>
+				</View>
+				<View id="key8" class="key" value="8" onTouchstart="ButtonSet" onTouchend="keyPressed" onTouchcancel="ButtonUnSet">
+					<Label class="keyNum">8</Label>
+				</View>
+				<View id="key0" class="key" value="0" onTouchstart="ButtonSet" onTouchend="keyPressed" onTouchcancel="ButtonUnSet">
+					<Label class="keyNum">0</Label>
+				</View>
+			</View>
+			<View id="column3" class="column">
+				<View id="key3" class="key" value="3" onTouchstart="ButtonSet" onTouchend="keyPressed" onTouchcancel="ButtonUnSet">
+					<Label class="keyNum">3</Label>
+				</View>
+				<View id="key6" class="key" value="6" onTouchstart="ButtonSet" onTouchend="keyPressed" onTouchcancel="ButtonUnSet">
+					<Label class="keyNum">6</Label>
+				</View>
+				<View id="key9" class="key" value="9" onTouchstart="ButtonSet" onTouchend="keyPressed" onTouchcancel="ButtonUnSet">
+					<Label class="keyNum">9</Label>
+				</View>
+				<View id="clear" class="key" value="c" onTouchstart="ButtonSet" onTouchend="keyPressed" onTouchcancel="ButtonUnSet">
+					<Label class="keyNum">\u232B</Label>
+				</View>
+			</View>
+		</View>
+	</View>
+	<View class="horDivider" top="62.5%"/>
+	<View class="horDivider" top="75%"/>
+	<View class="horDivider" top="87.5%"/>
+	<View class="verDivider" left="33.3%"/>
+	<View class="verDivider" left="66%"/>
+</Alloy>

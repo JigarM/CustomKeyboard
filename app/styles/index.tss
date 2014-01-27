@@ -1,0 +1,49 @@
+"#container": {
+	backgroundColor: "#00ABF6",
+	height: "100%",
+	width: "100%"
+},
+"#passcoedArea": {
+	bottom: "50%",
+	height: "20%",
+	backgroundColor: "#9d9FA2"
+},
+"#boxContainer": {
+	top: "30%",
+	height: "60%",
+	width: "90%",
+	layout: "horizontal"
+},
+".box": {
+	width: "20%",
+	height: "90%",
+	backgroundColor: "#ffffff",
+	borderRadius: 2,
+	borderColor: "#939598"
+},
+".title": {
+	color: "#ffffff",
+	top: "2%",
+
+	textAlign: "center",
+	font: {
+		// fontFamily: Alloy.Globals.fontFamilyUltraLight,,
+		fontSize: Alloy.Globals.fontSize
+	}
+},
+".title[platform=android]": {
+	color: "white",
+	top: "2%",
+	textAlign: "center",
+	font: {
+		fontSize: Alloy.Globals.fontSize
+	}
+},
+".value": {
+	//top: "0%",
+	font: {
+		fontSize: "65dp",
+		fonwWeight: "bold"
+	},
+	textAlign: "center"
+}
